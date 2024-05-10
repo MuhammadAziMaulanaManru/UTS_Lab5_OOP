@@ -30,7 +30,7 @@ public class Main {
             System.out.print("Masukkan kata kedua: ");
             kata2 = input.nextLine();
 
-            System.out.println(areAnagram(kata1, kata2) ? "Ini adalah kata anagram." : "Ini bukan kata anagram.");
+            System.out.println("Anagram Status:" + areAnagram(kata1, kata2));
 
             System.out.print("Apakah Anda ingin melanjutkan? [Iya/Tidak]: ");
             choice = input.nextLine();
