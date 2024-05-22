@@ -3,7 +3,7 @@ package soal2;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class main {
     public static boolean areAnagram(String kata1, String kata2) {
         kata1 = kata1.toLowerCase();
         kata2 = kata2.toLowerCase();
