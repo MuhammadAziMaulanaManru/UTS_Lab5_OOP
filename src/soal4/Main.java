@@ -14,5 +14,6 @@ public class Main {
         System.out.println("Energi yang diperlukan untuk melelehkan 4 kg es: " + ice1.calculateEnergy(4) + " Joule");
         System.out.println("Energi yang diperlukan untuk melelehkan 5 kg es dengan kalor lebur 350000 J/kg: " + ice1.calculateEnergy(5, 350000) + " Joule");
     }
+
 }
 
