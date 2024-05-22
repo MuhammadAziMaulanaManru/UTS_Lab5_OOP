@@ -5,7 +5,7 @@ public class TestMain {
     Employee e1 = new Employee(8, "Xavier", "Valave", 2500);
     System.out.println(e1); // toString();
     // Test Setters and Getter
-    De1.setSalary(999);
+    e1.setSalary(999);
     System.out.println(e1); // toString();
     System.out.println("id is: " + e1.getID());
     System.out.println("firstname is: " + e1.getFirstName());
