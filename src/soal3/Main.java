@@ -1,11 +1,8 @@
 package soal3;
-<<<<<<< HEAD
 public class TestMain {
     public static void Main(String[] args) {
-=======
 public class TestMain { public static void
 Main(String[] args) {
->>>>>>> da9433e7891566e07199d4969bfe2ffeb9d6f480
     // Test constructor and toString()
     Employee e1 = new Employee(8, "Xavier", "Valave", 2500);
     System.out.println(e1); // toString();
