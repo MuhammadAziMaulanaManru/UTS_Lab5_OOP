@@ -1,12 +1,11 @@
 package soal3;
 public class TestMain {
-    public static void Main(String[] args) {
-public class TestMain { public static void
-Main(String[] args) {
+    public static void main(String[] args) {
     // Test constructor and toString()
     Employee e1 = new Employee(8, "Xavier", "Valave", 2500);
     System.out.println(e1); // toString();
-    // Test Setters and Getters e1.setSalary(999);
+    // Test Setters and Getter
+    De1.setSalary(999);
     System.out.println(e1); // toString();
     System.out.println("id is: " + e1.getID());
     System.out.println("firstname is: " + e1.getFirstName());
@@ -17,5 +16,5 @@ Main(String[] args) {
     // Test raiseSalary()
     System.out.println(e1.raiseSalary(10));
     System.out.println(e1);
-}
+    }
 }
